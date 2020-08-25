@@ -1,0 +1,217 @@
+@charset "UTF-8";
+/*-------------------------Ajustes Generales-------------------------*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; }
+
+p {
+  font-family: 'Montserrat', sans-serif; }
+
+ol {
+  color: orange; }
+
+ul {
+  color: #FF6000;
+  list-style: none; }
+
+/*-------------------------Ajustes del body-------------------------*/
+body {
+  background-color: #F0F0F0;
+  color: #23292f;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif; }
+
+.principalTitles {
+  color: #FF6000; }
+
+/*------------------------------------Ajustes Barra de Navegación----------------------------*/
+.navbar {
+  background-color: white;
+  box-shadow: -8px -1px 11px #00000070; }
+
+.nav-link {
+  color: black; }
+
+.active {
+  color: #ff9100; }
+
+.nav-link:hover {
+  color: #ff9100; }
+
+/*------------------------------------Ajustes Sección Slider----------------------------*/
+/*------------------------------------Ajustes Sección Comercial----------------------------*/
+.comercial-box {
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center; }
+
+.comercial-box-item {
+  margin: 0px 10px 0px 10px;
+  padding: 10px 0px 10px 0px;
+  text-align: center; }
+
+.comercial-box-item:hover {
+  background-color: #ffffff; }
+
+/*------------------------------------Ajustes del Reloj----------------------------*/
+#reloj {
+  background-color: white;
+  text-align: center;
+  margin: 40px 20px 0px 20px;
+  padding: 20px 0px 20px 0px;
+  border-radius: 10px;
+  height: 200px; }
+
+#watch-box h1 {
+  font-size: 100px;
+  font-family: "bebas Neue"; }
+
+#chronometer {
+  transition: all 1.0s; }
+
+#chronometer:hover {
+  color: #FFD816;
+  font-weight: 800; }
+
+/*------------------------------------Ajustes Sección Ofertas----------------------------*/
+#section-Offer {
+  background-color: #F0F0F0;
+  width: auto;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 80px 40px 0px 40px;
+  padding: 20px;
+  text-align: left; }
+
+.offer {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: "product product product product";
+  justify-content: space-between;
+  padding: 20px; }
+
+.product {
+  grid-area: "product";
+  background-color: #ffffff7d;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+  padding: 60px 0px; }
+
+.product:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 11px 0px #00000042; }
+
+/*------------------------------------Ajustes Sección Categorias----------------------------*/
+#section-categories {
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  width: auto;
+  font-size: 18px;
+  margin: 100px 40px 0px 40px;
+  padding: 20px;
+  text-align: left; }
+
+#section-categories-xs {
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  width: auto;
+  font-size: 18px;
+  margin: 80px 20px 0px 20px;
+  padding: 20px;
+  text-align: center; }
+
+.categories {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: "category";
+  margin: 20px 0px; }
+
+.categories2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+  grid-template-areas: "category category";
+  margin: 20px 0px; }
+
+.categories3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+  grid-template-areas: "category category";
+  margin: 20px 0px; }
+
+.category {
+  grid-area: "category";
+  background-color: #ffffff7d;
+  border-radius: 10px;
+  width: auto;
+  font-size: 18px;
+  padding: 75px 0px;
+  text-align: center; }
+
+.category:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 11px 0px #00000042; }
+
+.principal-category {
+  grid-area: "category";
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 75px 0px;
+  width: auto;
+  font-size: 18px;
+  text-align: center;
+  transition: all 0.5s; }
+
+.principal-category:hover {
+  background-color: #23292f;
+  color: yellow;
+  box-shadow: 0px 0px 9px 0px #000000c4;
+  padding: 100px 0px; }
+
+/*-------------------------Ajustes del footer-------------------------*/
+footer {
+  grid-area: "footer";
+  font-size: 11px;
+  background-color: #23292f;
+  height: 100px;
+  width: 100%;
+  color: white;
+  margin-top: 300px; }
+
+/*------------------------------------@Medias Querys----------------------------*/
+/*------------------------------------MAX-WIDTH 576 PX----------------------------*/
+@media (max-width: 576px) {
+  /*------------------------------------Ajustes del Reloj--*/
+  #watch-box h1 {
+    font-size: 60px;
+    font-family: "bebas Neue"; }
+  #section-Offer {
+    margin: 80px 20px 0px 20px;
+    text-align: center; }
+  /*------------------------------------Ajustes Sección CategoriaS--*/
+  #section-categories {
+    display: none; } }
+
+/*------------------------------------MIN-WIDTH 576 PX----------------------------*/
+@media (min-width: 576px) {
+  #watch-box h1 {
+    font-size: 80px;
+    font-family: "bebas Neue"; }
+  #section-categories-xs {
+    display: none; } }
+
+/*------------------------------------MIN-WIDTH 768 PX----------------------------*/
+@media (min-width: 768px) {
+  #watch-box h1 {
+    font-size: 100px;
+    font-family: "bebas Neue"; }
+  #section-categories-xs {
+    display: none; } }
+
+/*------------------------------------MIN-WIDTH 992 PX----------------------------*/
+@media (min-width: 992px) {
+  #section-categories-xs {
+    display: none; } }
