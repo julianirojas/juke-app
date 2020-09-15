@@ -69,7 +69,7 @@ body {
   text-align: center; }
 
 .comercial-box-item:hover {
-  background-color: #ffffff; }
+  background-color: #ffc107; }
 
 /*------------------------------------Ajustes del Reloj----------------------------*/
 #reloj {
@@ -116,40 +116,38 @@ body {
   padding: 15px 10px 10px 10px; }
 
 #product-1 {
-  background-color: #f07525;
-  color: white; }
+  background-color: #202020; }
 
 #product-1:hover {
-  background-color: #e78c15;
+  background-color: #ce5301;
   box-shadow: 0 0 11px 0px #00000042; }
 
 #product-1 a {
   color: black; }
 
 #product-2 {
-  background-color: #38963a;
-  color: white; }
+  background-color: #202020; }
 
 #product-2:hover {
-  background-color: #186816;
+  background-color: #3c8b3a;
   box-shadow: 0 0 11px 0px #00000042; }
 
 #product-2 a {
   color: black; }
 
 #product-3 {
-  background-color: #da2016;
+  background-color: #202020;
   color: white; }
 
 #product-3:hover {
-  background-color: #580303;
+  background-color: #b30202;
   box-shadow: 0 0 11px 0px #00000042; }
 
 #product-3 a {
   color: black; }
 
 #product-4 {
-  background-color: #7a674d;
+  background-color: #202020;
   color: white; }
 
 #product-4:hover {
@@ -165,12 +163,12 @@ body {
 #title-product h5 {
   color: yellow;
   font-family: 'Staatliches', cursive;
-  font-size: 2rem; }
+  font-size: 1.6rem; }
 
 #price-product h6 {
   font-family: 'Staatliches', cursive;
   color: white;
-  font-size: 1rem; }
+  font-size: 1.3rem; }
 
 /*------------------------------------Ajustes Sección Categorias----------------------------*/
 #section-categories {
@@ -192,7 +190,6 @@ body {
 .categories {
   display: grid;
   font-family: 'Staatliches', cursive;
-  font-size: 5rem;
   grid-gap: 1rem;
   grid-template-areas: "category";
   margin: 20px 0px; }
@@ -200,7 +197,6 @@ body {
 .categories2 {
   display: grid;
   font-family: 'Staatliches', cursive;
-  font-size: 2rem;
   grid-template-columns: 2fr 1fr;
   grid-gap: 1rem;
   grid-template-areas: "category category";
@@ -218,15 +214,20 @@ body {
 .category {
   grid-area: "category";
   background-color: #ffffff7d;
+  font-size: 1.5rem;
   border-radius: 10px;
   width: auto;
-  font-size: 18px;
   padding: 75px 0px;
   text-align: center; }
+  .category a {
+    color: black;
+    text-decoration: none; }
 
 .category:hover {
   background-color: #ffffff;
   box-shadow: 0 0 11px 0px #00000042; }
+  .category:hover a {
+    color: black; }
 
 .principal-category {
   grid-area: "category";
@@ -234,19 +235,33 @@ body {
   border-radius: 10px;
   padding: 75px 0px;
   width: auto;
-  font-size: 18px;
+  font-size: 3rem;
   text-align: center;
   transition: all 0.5s; }
+  .principal-category a {
+    color: black; }
 
 .principal-category:hover {
   background-color: #23292f;
-  color: yellow;
   box-shadow: 0px 0px 9px 0px #000000c4;
   padding: 100px 0px; }
+  .principal-category:hover a {
+    color: yellow; }
 
 /*-------------------------Ajustes del footer-------------------------*/
-#footer-bar {
-  background-color: #23292f; }
+.footer-bar {
+  background-color: #23292f;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .footer-bar a {
+    color: white; }
 
 footer {
   grid-area: "footer";
@@ -255,6 +270,7 @@ footer {
   height: 100px;
   width: 100%;
   color: white;
+  margin-right: 0px;
   margin-top: 300px; }
 
 /*------------------------------------@Medias Querys----------------------------*/

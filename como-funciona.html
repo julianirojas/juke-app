@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juke Market</title>
     <link rel="stylesheet" href="css/style.css"/>
@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
+<!--Aqui comienza el header----------------------------------------------------------------->
+    <header>
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-md bg-navbar ">
@@ -37,55 +38,86 @@
             </div>
         </div>
     </header>
-	<!--Aqui comienza el formulario de contacto-->
-	<section id="formulario-contacto">
+<!--Aqui comienza la sección del Slider----------------------------------------------------------------->
+    <section id="slider-principal">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+					<div class="carousel-item active">
+                        <img class="d-block h-100" src="assets\img\portada-1.jpg" alt="First slide">
+                        <div id="prueba-car" class="carousel-caption">
+                            <h5>SUMATE A TUS VECINOS</h5>
+                            <h3 id="title-slider">UNA NUEVA FORMA DE COMPRAR</h3>
+                            <button type= "button" class="btn btn-outline-warning">
+                                <a href="#">Registrarme</a>
+                            </button>
+                        </div>
+                    </div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </section>
 
+<!--Aqui comienza la sección de info------------------------------------------------->
+    <section id="section-categories"> 
+        <h5>Sistema de compras conjuntas</h5>
+        <div class="d-block">
+            Juke, es un proyecto de características privadas que busca conformarse como una comunidad de compra
+            de aquellos bienes alimenticios de máxima y básica necesidad.
+            <br>
+            <br>
+            Si bien actúa como una organización privada, este proyecto trata de ubicarse en el punto de mayor
+            beneficio para el cliente, de esa
+            forma comprar a través de Juke es real y sinceramente conveniente para los individuos de dicha
+            comunidad.
+            <br>
+            <br>
+            Juke, está principalmente orientado a aquellas personas que debido al tamaño reducido de su grupo familiar, no
+            pueden ejercer poder sobre los precios y se ven imposibilitados a conseguir descuentos, por consencuencia,
+            terminan pagando montos elevados por sus productos.
+            <br>
+            <br>
+            Juke, agrupa a todas aquellas personas que efectúan compras semanales y las unifica en un pedido de
+            mayor dimensión, para luego fraccionarlos y distribuirlos a cada individuo que formo parte de esa
+            compra.
+        </div>
         
-    <div class= "d-block product col-xs-12 col-sm-12 col-md-12 col-lg-12"><h1 class="principalTitles">Contáctanos, tu consulta nos importa</h1></div>
-    <div class= "d-block product col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Correo electronico</label>
-              <input type="email" class="form-control" id="email" placeholder="nombre@empresa.com">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Nombre y Apellido</label>
-                <input type="type" class="form-control" id="nombre_contacto" placeholder="Nombre y apellido">
-              </div>
-            <div class="form-group">
-              <label for="exampleFormControlSelect1">Provincia</label>
-              <select class="form-control" id="ubicacion">
-                <option>Buenos Aires</option>
-                <option>Catamarca</option>
-                <option>Chaco</option>
-                <option>Chubut</option>
-                <option>Cordoba</option>
-                <option>Corrientes</option>
-                <option>Entre Rios</option>
-                <option>Formosa</option>
-                <option>Jujuy</option>
-                <option>La Pampa</option>
-                <option>La Rioja</option>
-                <option>Mendoza</option>
-                <option>Misiones</option>
-                <option>Neuquen</option>
-                <option>Rio Negro</option>
-                <option>Salta</option>
-                <option>San Juan</option>
-                <option>San Luis</option>
-                <option>Santa Cruz</option>
-                <option>Santa Fé</option>
-                <option>Santiago del Estero</option>
-                <option>Tierra del Fuego</option>
-                <option>Tucumán</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Escribenos tu mensaje</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
+    </section>
+    <section id="section-categories"> 
+        <h5>Pilares Básicos</h5>
+            <li>Eliminar intermediarios Innecesarios</li>
+            <li>Constituir canastas estandarizadas deproductos.</li>
+            <li>Eliminar costosinnecesarios quesobrecarguen elprecio final del producto.</li>
+    </section>
+    <section id="section-categories"> 
+        <h5>Canastas estandarizadas.</h5>
+        <div class="d-block">
+            Estandarizar opciones de pedidos en 3 o 4 Alternativas: Básica, Media, Alta y/o
+            Premium.
+    <br>
+    <br>
+    Esto otorga a juke previsibilidad sobre las compras que los clientes pretendan
+    efectuar, lo cual permite:
+        <br>
+        <br>
+            <li>Actuar con mayor organización.</li>
+            <li>Disminuir costos de logística.</li>
+            <li>Eliminar aquellos costos incurridos en la alta individualización de pedidos.</li>
+            <li>Consolidar mejores convenios con productores y proveedores.</li>
+            <li>Manejar lotes de pedidos con tamaños mas homogéneos.</li>
+            <li>Precios mas bajos.</li>
+            <li>Mejor calidad.</li>
+            <li>Implementar calculo de incidencias en las canastas, que permite reducir desperdicios.</li>
+</div>
+    </section>
+    <section id="section-categories">
+    <button type= "button" class="btn btn-light">
+        <a href="#">Registrarme</a>
+    </button>
+    </section>
+
 <!--Script----------------------------------------------------------------->
     <script src="js/script.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
