@@ -165,19 +165,18 @@ body {
 #title-product h5 {
   color: yellow;
   font-family: 'Staatliches', cursive;
-  font-size: 2rem; }
+  font-size: 1rem; }
 
 #price-product h6 {
   font-family: 'Staatliches', cursive;
   color: white;
-  font-size: 2rem; }
+  font-size: 1rem; }
 
 /*------------------------------------Ajustes Sección Categorias----------------------------*/
 #section-categories {
   background-color: #F0F0F0;
   border-radius: 10px;
   width: auto;
-  font-size: 18px;
   margin: 100px 40px 0px 40px;
   padding: 20px;
   text-align: left; }
@@ -186,19 +185,22 @@ body {
   background-color: #F0F0F0;
   border-radius: 10px;
   width: auto;
-  font-size: 18px;
   margin: 80px 20px 0px 20px;
   padding: 20px;
   text-align: center; }
 
 .categories {
   display: grid;
+  font-family: 'Staatliches', cursive;
+  font-size: 5rem;
   grid-gap: 1rem;
   grid-template-areas: "category";
   margin: 20px 0px; }
 
 .categories2 {
   display: grid;
+  font-family: 'Staatliches', cursive;
+  font-size: 2rem;
   grid-template-columns: 2fr 1fr;
   grid-gap: 1rem;
   grid-template-areas: "category category";
@@ -206,6 +208,8 @@ body {
 
 .categories3 {
   display: grid;
+  font-family: 'Staatliches', cursive;
+  font-size: 2rem;
   grid-template-columns: 1fr 2fr;
   grid-gap: 1rem;
   grid-template-areas: "category category";
@@ -241,6 +245,9 @@ body {
   padding: 100px 0px; }
 
 /*-------------------------Ajustes del footer-------------------------*/
+#footer-bar {
+  background-color: #23292f; }
+
 footer {
   grid-area: "footer";
   font-size: 11px;
