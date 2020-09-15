@@ -1,5 +1,5 @@
 
-/*-------------------------Ajustes Generales-------------------------*/
+/*--------------------------Ajustes Generales-------------------------*/
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size:16px;}
@@ -13,7 +13,9 @@ ol {
 ul {
 	color:#FF6000;
 	list-style: none;}
-/*-------------------------Ajustes del body-------------------------*/
+
+
+/*--------------------------Ajustes del body-------------------------*/
 
 body {
 	background-color:#F0F0F0;
@@ -46,8 +48,27 @@ body {
 
 
 /*------------------------------------Ajustes Sección Slider----------------------------*/
+#prueba-car {
+	display: relative;
+	padding-bottom:100px;
+		a {
+	color:yellow;
+	}
+	h5 {
+		color:yellow;
+		font-family: 'Staatliches', cursive;
+		font-size:2rem;
+	}
+	#title-slider {
+		font-family: 'Staatliches', cursive;
+		font-size:3rem;
+	}
+}
 
-
+.carousel-inner {
+	width: 100%;
+	overflow: hidden;
+  }
 /*------------------------------------Ajustes Sección Comercial----------------------------*/
 .comercial-box {
 	background-color: yellow;
@@ -108,17 +129,74 @@ body {
 
 .product {
 	grid-area: "product";
-	background-color:#ffffff7d;
 	border-radius:10px;
 	font-size:18px;
 	text-align: center;
-	padding: 60px 0px;
+	padding: 15px 10px 10px 10px;
 }
 
-.product:hover {
-	background-color:#ffffff;
+#product-1 {
+	background-color: rgb(240, 117, 37);
+	color: white;
+}
+#product-1:hover {
+	background-color:#e78c15;
 	box-shadow: 0 0 11px 0px #00000042;
 }
+#product-1 a {
+	color:black;
+}
+
+#product-2 {
+	background-color: rgb(56, 150, 58);
+	color: white;
+}
+#product-2:hover {
+	background-color:#186816;
+	box-shadow: 0 0 11px 0px #00000042;
+}
+#product-2 a {
+	color:black;
+}
+
+#product-3 {
+	background-color: rgb(218, 32, 22);
+	color: white;
+}
+#product-3:hover {
+	background-color:#580303;
+	box-shadow: 0 0 11px 0px #00000042;
+}
+#product-3 a {
+	color:black;
+}
+
+#product-4 {
+	background-color: #7a674d; 
+	color: white;
+}
+#product-4:hover {
+	background-color:rgb(99, 78, 64);
+	box-shadow: 0 0 11px 0px #00000042;
+}
+#product-4 a {
+	color:black;
+}
+
+.product-block {
+	padding-bottom: 50px;
+}
+#title-product h5 {
+	color: yellow;
+	font-family: 'Staatliches', cursive;
+	font-size:2rem;
+}
+#price-product h6 {
+	font-family: 'Staatliches', cursive;
+	color: white;
+	font-size:2rem;
+}
+
 /*------------------------------------Ajustes Sección Categorias----------------------------*/
 #section-categories {
 	background-color:#F0F0F0;
